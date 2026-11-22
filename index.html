@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/qvjz8QFW/Logo.png" />
+    <title>Thư gửi em,...💌</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="envlope-wrapper">
+        <div id="envelope" class="close">
+            <div class="wax-seal"></div>
+            <div class="front flap"></div>
+            <div class="front pocket"></div>
+            <div class="letter">
+                <div class="letter-corner corner-tl"></div>
+                <div class="letter-corner corner-br"></div>
+                <div class="message">
+                    <div class="lyrics">
+                        <div class="lyric-page active" id="page1"><p>Gửi Em,...🌸 </p></div>
+                        <div class="lyric-page" id="page2"><p>Anh viết những lời này không phải vì nhất thời rung động,</p></div>
+                        <div class="lyric-page" id="page3"><p>Mà vì anh đã nghĩ đến em rất nhiều</p></div>
+                        <div class="lyric-page" id="page4"><p>Mỗi lần nhìn thấy em cười</p></div>
+                        <div class="lyric-page" id="page5"><p>trái tim anh lại lặng đi một nhịp</p></div>
+                        <div class="lyric-page" id="page6"><p>Anh không biết là từ khi nào...🥰</p></div>
+                        <div class="lyric-page" id="page7"><p>Nhưng em đã trở thành một phần đặc biệt trong trái tim anh</p></div>
+                        <div class="lyric-page" id="page8"><p>Không ồn ào, không rực rỡ</p></div>
+                        <div class="lyric-page" id="page9"><p>Chỉ là sự hiện diện của em khiến mọi thứ trở nên dễ chịu hơn</p></div>
+                        <div class="lyric-page" id="page10"><p>Anh không hứa sẽ mang cả thế giới cho em</p></div>
+                        <div class="lyric-page" id="page11"><p>Nhưng anh có thể trao cho em cả trái tim này ❤️.</p></div>
+                        <div class="lyric-page" id="page12"><p>Chỉ cần em muốn, </p></div>
+                        <div class="lyric-page" id="page13"><p>Anh luôn sẵn sàng ở đây</p></div>
+                        <div class="lyric-page" id="page14"><p>Lặng lẽ quan tâm và chờ đợi em quay lại nhìn anh</p></div>
+                        <div class="lyric-page" id="page15"><p>Em có thể không hoàn hảo</p></div>
+                        <div class="lyric-page" id="page16"><p>Nhưng trong mắt anh, em là duy nhất</p></div>
+                        <div class="lyric-page" id="page17"><p>Không cần quá nhiều lý do...</p></div>
+                        <div class="lyric-page" id="page18"><p>Chỉ đơn giản là anh thích em,...</p></div>
+                        <div class="lyric-page" id="page19"><p>Thích ánh mắt ấy, nụ cười ấy, cách em bước qua đời anh nhẹ nhàng</p></div>
+                        <div class="lyric-page" id="page20"><p>Nếu em có chút gì đó giống anh.</p></div>
+                        <div class="lyric-page" id="page21"><p>Thì cho anh một cơ hội, được ở bên cạnh em </p></div>
+                        <div class="lyric-page" id="page22"><p>Thật lòng...Chỉ mình em</p></div>
+                        <div class="lyric-page" id="page23"><p>Anh yêu em ❤️</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="hearts">
+                <div class="heart a1"></div>
+                <div class="heart a2"></div>
+                <div class="heart a3"></div>
+            </div>
+            <div class="sparkles">
+                <div class="sparkle s1"></div>
+                <div class="sparkle s2"></div>
+                <div class="sparkle s3"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button id="openBtn">Mở</button>
+        <button id="resetBtn" style="display: none;">Đóng</button>
+    </div>
+
+    <!-- Nhạc nền -->
+    <audio id="sound" loop>
+        <source src="./style/Nhac.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- Khung Video xuất hiện sau khi đọc xong thư -->
+    <div id="videoContainer">
+        <video id="loveVideo" controls playsinline>
+            <source src="./style/video.mp4" type="video/mp4">
+            Trình duyệt của bạn không hỗ trợ phát video.
+        </video>
+        <button id="backToLetterBtn">💌 Đọc lại thư</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./style/script.js"></script>
+</body>
+</html>
